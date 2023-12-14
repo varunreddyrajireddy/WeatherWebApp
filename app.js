@@ -5,7 +5,7 @@ let weatherDesc = document.getElementById("weather-desc");
 let searchBtn = document.getElementById("btn");
 let icon = document.getElementById("icon");
 
-
+const apiKey = '2d9ae582a06d51e56941b7accde258e7';
 
 searchBtn.onclick = () => {
   if(searchEl.value === ""){
