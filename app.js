@@ -14,7 +14,7 @@ searchBtn.onclick = async () => {
     }
 
     const response = await fetch(
-      `http://localhost:5500/weather?loc=${location}`
+      `https://localhost:5500/weather?loc=${location}`
     );
 
     const data = await response.json();
