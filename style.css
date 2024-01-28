@@ -1,44 +1,42 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 1.5px;
 }
 
-body{
+body {
   background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
-.container{
-  background: linear-gradient(to right, #191F22, #131618);
+.container {
+  background: linear-gradient(to right, #191f22, #131618);
   border-radius: 30px;
   width: 400px;
   margin: 0 auto;
   margin-top: 180px;
   padding-bottom: 50px;
   box-shadow: 0 0 16px black;
-  
 }
 
-.title{
+.title {
   padding: 10px 0;
   text-align: center;
   position: absolute;
   top: 16%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 50px;
   font-weight: 800;
-  font-family: 'Kaushan Script', cursive;
-  
+  font-family: "Kaushan Script", cursive;
 }
 
-.container .search{
+.container .search {
   text-align: center;
   margin: 10px 0;
 }
 
-.container #search-location{
+.container #search-location {
   margin-top: 30px;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   color: black;
@@ -49,7 +47,7 @@ body{
   width: 60%;
   border-radius: 20px;
   font-size: 16px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 900;
 }
 
@@ -57,16 +55,15 @@ body{
   color: black;
 }
 
-.container #search-location:hover{
+.container #search-location:hover {
   border: 2px solid rgb(137, 129, 202);
 }
 
-.container #search-location:focus{
+.container #search-location:focus {
   box-shadow: 0 0 3px #015b7e;
 }
 
-.container .search #btn{
-  width: 22%;
+.container .search #searchBtn {
   background: #36d1dc;
   background-clip: text;
   -webkit-background-clip: text;
@@ -78,14 +75,15 @@ body{
   height: 39px;
   cursor: pointer;
   margin-left: 6px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
-.container .search #btn:hover, .container .search #btn:active{
+.container .search #btn:hover,
+.container .search #btn:active {
   border: 2px solid #36d1dc;
 }
 
-img{
+img {
   display: block;
   width: 40%;
   border-radius: 20px;
@@ -93,31 +91,31 @@ img{
   background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
-.card{
+.card {
   color: #293251;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
-.temp{
+.temp {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
-#F{
+#F {
   font-size: 30px;
   margin-left: 10px;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
-#weather-desc{
+#weather-desc {
   font-size: 30px;
   text-align: center;
   padding: 8px;
@@ -125,15 +123,15 @@ img{
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
-#location{
+#location {
   font-size: 30px;
   text-align: center;
   font-weight: 600;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
